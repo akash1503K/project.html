@@ -1,0 +1,583 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6d4e9;
+    /* Light grey background */
+    color: #495057;
+    display: flex;
+}
+
+header {
+    background: #50afa7;
+    /* Dark grey header */
+    color: white;
+    padding: 30px;
+    text-align: center;
+    flex: 1 0 0%;
+}
+
+nav {
+    background: #495057;
+    /* Medium grey sidebar */
+    color: white;
+    padding: 15px;
+    flex: 0 0 200px;
+    height: 100vh;
+    /* Full height */
+    justify-self: end;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #adb5bd;
+    /* Light grey on hover */
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    /* White background for main content */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    /* Margin around main content */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #235485;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.9;
+}
+
+
+body {
+    flex-direction: column;
+}
+
+nav {
+    flex: 0 0 auto;
+    height: auto;
+    /* Auto height for mobile */
+}
+
+.main-content {
+    margin: 10px;
+    /* Smaller margin on mobile */
+
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+/* Navigation Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #5347a2;
+}
+
+
+skill/ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f7f7;
+}
+
+nav {
+    background-color: #434141;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(173, 167, 167);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(153, 55, 55, 0.1);
+}
+
+p {
+    color: rgb(6, 48, 6);
+    margin: 50px;
+    padding: 20px;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #1839b3;
+    color: rgb(178, 166, 166);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Base styles remain unchanged */
+
+/* Media Query for Responsive Design */
+
+@media (max-width:1280px
+) {
+    body {
+        flex-direction: column;
+        padding: 10px;
+        /* Reduce padding on mobile */
+    }
+
+    nav {
+        flex: 0 0 auto;
+        height: auto;
+        /* Auto height for mobile */
+        padding: 10px;
+        /* Adjust padding for mobile */
+        background-color: #010a1e;
+        /*Adjust color for mobile*/
+        
+        
+    }
+
+
+
+    .main-content {
+        margin: 10px;
+        /* Smaller margin on mobile */
+        background-color: #afacc5;
+
+    }
+
+    h1 {
+        font-size: 2em;
+        /* Smaller font size for headings */
+
+    }
+
+    h2 {
+        font-size: 2.1em;
+        /* Smaller font size for subheadings */
+        color: #071312;
+    }
+
+    nav ul {
+        flex-direction: column;
+        /* Stack nav items vertically */
+        align-items: center;
+        /* Center nav items */
+
+    }
+
+    nav ul li a {
+        margin: 5px 0;
+        /* Reduce margin between nav items */
+        justify-content:space-between
+    }
+
+    section {
+        margin: 10px;
+        /* Reduce margin on sections for mobile */
+        padding: 15px;
+        /* Reduce padding on sections */
+        background-color: #4b6b8a
+    }
+
+    p {
+        color: #020006
+    }
+
+    footer {
+        padding: 60px;
+        /* Adjust footer padding */
+        font-size: 22px;
+        /* Smaller font size for footer */
+        background-color: #010a1e
+    }
+
+    button {
+        width: 100%;
+        /* Full-width buttons on mobile */
+        padding: 12px;
+        /* Increase padding for better touch targets */
+    }
+
+}
+
+
+
+@media (max-width:1024px) {
+    body {
+        flex-direction: column;
+        padding: 10px;
+        /* Reduce padding on mobile */
+    }
+
+    nav {
+        flex: 0 0 auto;
+        height: auto;
+        /* Auto height for mobile */
+        padding: 10px;
+        /* Adjust padding for mobile */
+        background-color: #4767b7;
+        /*Adjust color for mobile*/
+        
+    }
+
+
+
+    .main-content {
+        margin: 10px;
+        /* Smaller margin on mobile */
+        background-color: #afacc5;
+
+    }
+
+    h1 {
+        font-size: 2em;
+        /* Smaller font size for headings */
+
+    }
+
+    h2 {
+        font-size: 2.1em;
+        /* Smaller font size for subheadings */
+        color: #08776e;
+    }
+
+    nav ul {
+        flex-direction: column;
+        /* Stack nav items vertically */
+        align-items: center;
+        /* Center nav items */
+
+    }
+
+    nav ul li a {
+        margin: 5px 0;
+        /* Reduce margin between nav items */
+        justify-content:space-between
+    }
+
+    section {
+        margin: 5px;
+        /* Reduce margin on sections for mobile */
+        padding: 15px;
+        /* Reduce padding on sections */
+        background-color: #343a40
+    }
+
+    p {
+        color: #f2eee8
+    }
+
+    footer {
+        padding: 20px;
+        /* Adjust footer padding */
+        font-size: 12px;
+        /* Smaller font size for footer */
+        background-color: #4767b7
+    }
+
+    button {
+        width: 100%;
+        /* Full-width buttons on mobile */
+        padding: 12px;
+        /* Increase padding for better touch targets */
+    }
+
+}
+
+
+
+
+@media (max-width:768px) {
+    body {
+        flex-direction: column;
+        padding: 10px;
+        /* Reduce padding on mobile */
+    }
+
+    nav {
+        flex: 1 0 auto;
+        height: auto;
+        /* Auto height for mobile */
+        padding: 10px;
+        /* Adjust padding for mobile */
+        background-color: #7246a9;
+        /*Adjust color for mobile*/
+    }
+
+
+
+    .main-content {
+        margin: 10px;
+        /* Smaller margin on mobile */
+        background-color: #12111b;
+
+    }
+
+    h1 {
+        font-size: 2em;
+        /* Smaller font size for headings */
+    }
+
+    h2 {
+        font-size: 1.5em;
+        /* Smaller font size for subheadings */
+        color: #08776e;
+        text-decoration: underline;
+    }
+
+    nav ul {
+        flex-direction: column;
+        /* Stack nav items vertically */
+        align-items: center;
+        /* Center nav items */
+
+    }
+
+    nav ul li a {
+        margin: 5px 0;
+        /* Reduce margin between nav items */
+        justify-content: space-around;
+    }
+
+    section {
+        margin: 5px;
+        /* Reduce margin on sections for mobile */
+        padding: 15px;
+        /* Reduce padding on sections */
+        background-color: #12111b;
+    }
+
+    p {
+        color: #efeef6;
+        text-decoration: double;
+    }
+
+    footer {
+        padding: 20px;
+        /* Adjust footer padding */
+        font-size: 12px;
+        /* Smaller font size for footer */
+        background-color: #7246a9;
+        color: white;
+        text-decoration: solid;
+
+    }
+
+    button {
+        width: 100%;
+        /* Full-width buttons on mobile */
+        padding: 12px;
+        /* Increase padding for better touch targets */
+    }
+
+}
+
+@media (max-width:480px) {
+    body {
+        flex-direction: column;
+        padding: 10px;
+        /* Reduce padding on mobile */
+    }
+
+    nav {
+        flex: 0 0 auto;
+        height: auto;
+        /* Auto height for mobile */
+        padding: 10px;
+        /* Adjust padding for mobile */
+        background-color: #ab7223;
+        /*Adjust color for mobile*/
+
+    }
+
+
+
+    .main-content {
+        margin: 10px;
+        /* Smaller margin on mobile */
+        background-color: #afacc5;
+
+    }
+
+    h1 {
+        font-size: 2em;
+        /* Smaller font size for headings */
+    }
+
+    h2 {
+        font-size: 1.5em;
+        /* Smaller font size for subheadings */
+        color: #111e1d;
+    }
+
+    nav ul {
+        flex-direction: column;
+        /* Stack nav items vertically */
+        align-items: center;
+        /* Center nav items */
+
+    }
+
+    nav ul li a {
+        margin: 5px 0;
+        /* Reduce margin between nav items */
+        justify-content: end
+    }
+
+    section {
+        margin: 5px;
+        /* Reduce margin on sections for mobile */
+        padding: 15px;
+        /* Reduce padding on sections */
+        background-color: #343a40
+    }
+
+    p {
+        color: #f2eee8
+    }
+
+    footer {
+        padding: 20px;
+        /* Adjust footer padding */
+        font-size: 12px;
+        /* Smaller font size for footer */
+        background-color: #ab7223
+    }
+
+    button {
+        width: 100%;
+        /* Full-width buttons on mobile */
+        padding: 12px;
+        /* Increase padding for better touch targets */
+    }
+}
